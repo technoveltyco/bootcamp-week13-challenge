@@ -1,0 +1,21 @@
+<svg viewBox="0 0 300 300" width="100" heigh="100">
+    <defs>
+    <path
+        id="criclePath"
+        d=" M 150, 150 m -120, 0 a 120,120 0 0,1 240,0 a 120,120 0 0,1 -240,0 "
+    />
+    </defs>
+
+    <!-- <circle cx="150" cy="150" r="150" fill="#000"/> -->
+    <g class="circleText">
+    <use xlink:href="#criclePath" fill="none" />
+    <text fill="#000" font-family="Verdana" font-size="29">
+        <textPath id="circleText" xlink:href="#criclePath">
+        Cascading Style Sheets · Cascading Style Sheets ·
+        </textPath>
+    </text>
+    </g>
+    <g>
+    <text id="badgeText" x="67" y="180" font-family="Verdana" font-size="80">CSS</text>
+    </g>
+</svg>

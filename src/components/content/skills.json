@@ -1,0 +1,125 @@
+{
+    "be": [
+        {
+            "title": "PHP",
+            "description": "Hypertext Preprocessor · Hypertext Preprocessor · "
+        },
+        {
+            "title": "Symfony",
+            "description": "PHP Web Framework · PHP Web Framework · "
+        },
+        {
+            "title": "Laravel",
+            "description": "PHP Web Framework · PHP Web Framework · "
+        },
+        {
+            "title": "Drupal",
+            "description": "Content Management System · CMS · "
+        },
+        {
+            "title": "Node.js",
+            "description": "Back-end JavaScript · Back-end JavaScript · " 
+        },
+        {
+            "title": "C#",
+            "description": ".NET Framework · .NET Framework · " 
+        },
+        {
+            "title": "Bash",
+            "description": "Shell Scripting · Shell Scripting · "
+        }
+
+    ],
+    "fe": [
+        {
+            "title": "HTML",
+            "description": "HyperText Markup Language · HyperText Markup Language · "
+        },
+        {
+            "title": "CSS",
+            "description": "Cascading Style Sheets · Cascading Style Sheets · "
+        },
+        {
+            "title": "JavaScript",
+            "description": "Vanilla · ECMAScript · ES 6 · "
+        },
+        {
+            "title": "jQuery",
+            "description": "JavaScript Library · JavaScript Library · "
+        },
+        {
+            "title": "React.js",
+            "description": "JavaScript Library · JavaScript Library · "
+        }
+    ],
+    "tdd": [
+        {
+            "title": "PHPUnit",
+            "description": "Unit Testing Framework · Unit Testing Framework · "
+        },
+        {
+            "title": "Jest",
+            "description": "JavaScript Testing Framework"
+        }
+    ],
+    "devops": [
+        {
+            "title": "GitHub",
+            "description": "Vesion Control · Continuous Integration · Project Management · "
+        },
+        {
+            "title": "Bitbucket",
+            "description": "Vesion Control · Continuous Integration · "
+        },
+        {
+            "title": "GitLab",
+            "description": "Vesion Control · Continuous Integration · "
+        },
+        {
+            "title": "AWS",
+            "description": "Amazon Web Services · Cloud Computing · "
+        },
+        {
+            "title": "Azure",
+            "description": "Microsoft · Cloud Computing · "
+        },
+        {
+            "title": "Azure DevOps",
+            "description": "Vesion Control · Continuous Integration · Project Management · "
+        },
+        {
+            "title": "Buddy.Works",
+            "description": "Continuous Integration · CI/CD · "
+        }
+    ],
+    "pm": [
+        {
+            "title": "Extreme programming",
+            "description": "Software Development Methodology · XP · "
+        },
+        {
+            "title": "SCRUM",
+            "description": "Project Management Framework · Project Management Framework  · "
+        },
+        {
+            "title": "KANBAN",
+            "description": "Lean Methodology · Process Management · "
+        },
+        {
+            "title": "JIRA",
+            "description": "Project Management Software · Bug Tracking · "
+        },
+        {
+            "title": "ClickUp",
+            "description": "Project Management Software · Bug Tracking · "
+        },
+        {
+            "title": "Notion",
+            "description": "Knowledge Management System · Productivity Tool ·"
+        },
+        {
+            "title": "ITIL",
+            "description": "IT Service Management · Service Delivery Framework · "
+        }
+    ]
+}
