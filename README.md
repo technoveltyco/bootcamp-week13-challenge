@@ -10,6 +10,8 @@ Boot camp week 13 challenge repository
     - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
+    - [Content Architecture](#content-architecture)
+    - [Accessible Colour Pallete](#accessible-colour-pallete)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
@@ -43,6 +45,36 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+
+First, I started designing the content architecture of the different sections, content and how they will link each other on the website.
+
+### Content Architecture
+
+![Content architecture of my portfolio](./docs/assets/img/My%20Portfolio.jpg)
+
+On the mindmap above, I separate the content in purple, for those sections that I would deliver for this challenge, and in gray those that need work and are for future project development.
+
+### Accessible Colour Pallete
+
+#2C2C2C  (black) - background
+
+#FFFFFF  (white) - text normal
+#8FCCB7 (cyan) - text highlight
+
+#93415C (red wine light) - component 1
+#603744 (red wine dark) - component 1
+
+#C74D4C (terracota light) - component 2
+#7B3E3C (terracota dark) - component 2
+
+#ED6B3E (orange light) - component 3
+#8E4D36 (orange dark) - component 3
+
+#F09849 (yellow light) - component 4
+#8E623C (yellow dark) - component 4
+
+#376083 (blue light) - component 5
+#314658 (blue dark) - component 5
 
 ### Built with
 
@@ -89,17 +121,22 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- UX/UI
+  - [11 Best Free Wireframe Tools for UX Designers in 2023](https://careerfoundry.com/en/blog/ux-design/free-wireframing-tools/)
+- Accessibility
+  - [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/)
+  - [Accessibility, Usability, and Inclusion](https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/)
+  - [What is accessibility?](https://xd.adobe.com/ideas/principles/web-design/what-is-accessible-design/)
+  - [GOV.UK Design System](https://design-system.service.gov.uk/)
+  - [Dos and don'ts on designing for accessibility](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
+  - [Web Accessibility Standards: A Primer for UX Designers](https://usabilitygeek.com/web-accessibility-standards-a-primer-for-ux-designers/)
 
 ## Author
-  Your Name
-- Website - [your name or website url](https://www.your-site.com)
-- GitHub - [your GitHub username](https://github.com/yourusername)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+  Daniel Rodriguez
+
+- Website - [Technovelty.co](https://technovelty.co)
+- GitHub - [Technoveltyco](https://github.com/technoveltyco)
 
 ## Acknowledgments
 
