@@ -1,125 +1,200 @@
 {
     "be": [
         {
-            "title": "PHP",
-            "description": "Hypertext Preprocessor · Hypertext Preprocessor · "
+            "skill": "PHP",
+            "keywords": [
+                "Hypertext Preprocessor"
+            ]
         },
         {
-            "title": "Symfony",
-            "description": "PHP Web Framework · PHP Web Framework · "
+            "skill": "Symfony",
+            "keywords": [
+                "PHP Web Framework"
+            ]
         },
         {
-            "title": "Laravel",
-            "description": "PHP Web Framework · PHP Web Framework · "
+            "skill": "Laravel",
+            "keywords": [
+                "PHP Web Framework"
+            ]
         },
         {
-            "title": "Drupal",
-            "description": "Content Management System · CMS · "
+            "skill": "Drupal",
+            "keywords": [
+                "Content Management System",
+                "CMS"
+            ]
         },
         {
-            "title": "Node.js",
-            "description": "Back-end JavaScript · Back-end JavaScript · " 
+            "skill": "Node.js",
+            "keywords": [
+                "Back-end JavaScript"
+            ] 
         },
         {
-            "title": "C#",
-            "description": ".NET Framework · .NET Framework · " 
+            "skill": "C#",
+            "keywords": [
+                ".NET Framework"
+            ] 
         },
         {
-            "title": "Bash",
-            "description": "Shell Scripting · Shell Scripting · "
+            "skill": "Bash",
+            "keywords": [
+                "Shell Scripting"
+            ]
         }
 
     ],
     "fe": [
         {
-            "title": "HTML",
-            "description": "HyperText Markup Language · HyperText Markup Language · "
+            "skill": "HTML",
+            "keywords": [
+                "HyperText Markup Language"
+            ]
         },
         {
-            "title": "CSS",
-            "description": "Cascading Style Sheets · Cascading Style Sheets · "
+            "skill": "CSS",
+            "keywords": [
+                "Cascading Style Sheets"
+            ]
         },
         {
-            "title": "JavaScript",
-            "description": "Vanilla · ECMAScript · ES 6 · "
+            "skill": "JavaScript",
+            "keywords": [
+                "Vanilla",
+                "ECMAScript",
+                "ES 6"
+            ]
         },
         {
-            "title": "jQuery",
-            "description": "JavaScript Library · JavaScript Library · "
+            "skill": "jQuery",
+            "keywords": [
+                "JavaScript Library"
+            ]
         },
         {
-            "title": "React.js",
-            "description": "JavaScript Library · JavaScript Library · "
+            "skill": "React.js",
+            "keywords": [
+                "JavaScript Library"
+            ]
         }
     ],
     "tdd": [
         {
-            "title": "PHPUnit",
-            "description": "Unit Testing Framework · Unit Testing Framework · "
+            "skill": "PHPUnit",
+            "keywords": [
+                "Unit Testing Framework"
+            ]
         },
         {
-            "title": "Jest",
-            "description": "JavaScript Testing Framework"
+            "skill": "Jest",
+            "keywords": [
+                "JavaScript Testing Framework"
+            ]
         }
     ],
     "devops": [
         {
-            "title": "GitHub",
-            "description": "Vesion Control · Continuous Integration · Project Management · "
+            "skill": "GitHub",
+            "keywords": [
+                "Vesion Control",
+                "Continuous Integration",
+                "Project Management"
+            ]
         },
         {
-            "title": "Bitbucket",
-            "description": "Vesion Control · Continuous Integration · "
+            "skill": "Bitbucket",
+            "keywords": [
+                "Vesion Control",
+                "Continuous Integration"
+            ]
         },
         {
-            "title": "GitLab",
-            "description": "Vesion Control · Continuous Integration · "
+            "skill": "GitLab",
+            "keywords": [
+                "Vesion Control",
+                "Continuous Integration"
+            ]
         },
         {
-            "title": "AWS",
-            "description": "Amazon Web Services · Cloud Computing · "
+            "skill": "AWS",
+            "keywords": [
+                "Amazon Web Services",
+                "Cloud Computing"
+            ]
         },
         {
-            "title": "Azure",
-            "description": "Microsoft · Cloud Computing · "
+            "skill": "Azure",
+            "keywords": [
+                "Microsoft",
+                "Cloud Computing"
+            ]
         },
         {
-            "title": "Azure DevOps",
-            "description": "Vesion Control · Continuous Integration · Project Management · "
+            "skill": "Azure DevOps",
+            "keywords": [
+                "Vesion Control",
+                "Continuous Integration",
+                "Project Management"
+            ]
         },
         {
-            "title": "Buddy.Works",
-            "description": "Continuous Integration · CI/CD · "
+            "skill": "Buddy.Works",
+            "keywords": [
+                "Continuous Integration",
+                "Continous Deployment",
+                "CI/CD"
+            ]
         }
     ],
     "pm": [
         {
-            "title": "Extreme programming",
-            "description": "Software Development Methodology · XP · "
+            "skill": "XP",
+            "keywords": [
+                "Extreme Programming",
+                "Software Development Methodology"
+            ]
         },
         {
-            "title": "SCRUM",
-            "description": "Project Management Framework · Project Management Framework  · "
+            "skill": "SCRUM",
+            "keywords": [
+                "Project Management Framework"
+            ]
         },
         {
-            "title": "KANBAN",
-            "description": "Lean Methodology · Process Management · "
+            "skill": "KANBAN",
+            "keywords": [
+                "Lean Methodology",
+                "Process Management"
+            ]
         },
         {
-            "title": "JIRA",
-            "description": "Project Management Software · Bug Tracking · "
+            "skill": "JIRA",
+            "keywords": [
+                "Project Management Software",
+                "Bug Tracking"
+            ]
         },
         {
-            "title": "ClickUp",
-            "description": "Project Management Software · Bug Tracking · "
+            "skill": "ClickUp",
+            "keywords": [
+                "Project Management Software",
+                "Bug Tracking"
+            ]
         },
         {
-            "title": "Notion",
-            "description": "Knowledge Management System · Productivity Tool ·"
+            "skill": "Notion",
+            "keywords": [
+                "Knowledge Management System",
+                "Productivity Tool"
+            ]
         },
         {
-            "title": "ITIL",
-            "description": "IT Service Management · Service Delivery Framework · "
+            "skill": "ITIL",
+            "keywords": [
+                "IT Service Management",
+                "Service Delivery Framework"
+            ]
         }
     ]
 }
