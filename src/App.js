@@ -19,7 +19,7 @@ function App() {
             path="/"
             element={
               <div className="Page">
-                <Home basename={basename} />
+                <Home />
               </div>
             }
           />
@@ -27,7 +27,7 @@ function App() {
             path="about"
             element={
               <div className="Page">
-                <About basename={basename} />
+                <About />
               </div>
             }
           />
@@ -35,7 +35,7 @@ function App() {
             path="work"
             element={
               <div className="Page">
-                <Work basename={basename} />
+                <Work />
               </div>
             }
           />
@@ -43,7 +43,7 @@ function App() {
             path="contact/*"
             element={
               <div className="Page">
-                <Contact basename={basename} />
+                <Contact />
               </div>
             }
           />
