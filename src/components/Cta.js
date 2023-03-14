@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import "./Cta.css";
 
@@ -12,15 +13,17 @@ function Cta({
 }) {
   return (
     <>
-      <Button
-        variant={variant}
-        href={path}
-        className={className}
-        size={size}
-        tabIndex={tabIndex}
-      >
-        {label}
-      </Button>{" "}
+      <Link to={path}>
+        <Button
+          variant={variant}
+          href={path}
+          className={className}
+          size={size}
+          tabIndex={tabIndex}
+        >
+          {label}
+        </Button>{" "}
+      </Link>
     </>
   );
 }

@@ -7,7 +7,7 @@ import ContactLinks from "../ContactLinks";
 import HeroAside from "../HeroAside";
 import "./Home.css";
 
-function Home({ basename }) {
+function Home() {
   return (
     <header className="Hero">
       <Container fluid>
@@ -16,13 +16,13 @@ function Home({ basename }) {
             <Hero>
               <Cta
                 label={"See My Work"}
-                path={basename + "/work"}
+                path="work"
                 variant={"primary"}
                 tabIndex="5"
               />
               <Cta
                 label={"More About Me"}
-                path={basename + "/about"}
+                path="about"
                 variant={"outline-primary"}
                 tabIndex="6"
               />
