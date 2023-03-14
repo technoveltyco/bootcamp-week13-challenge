@@ -1,0 +1,81 @@
+.Hero-content span {
+  display: flex;
+}
+
+.Hero-content h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.Hero-content h2,
+.Hero-content p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 1.33rem;
+  text-align: left;
+  line-height: 2rem;
+}
+
+.Hero-content p {
+  margin: 1.5rem 0;
+}
+
+.Hero-cta-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3.5rem;
+}
+
+.hand-wave {
+  animation-name: hand-wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes hand-wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 576px) {
+  .Hero-cta-buttons {
+    flex-direction: column;
+  }
+
+  .Hero-cta-buttons .Cta-btn {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .Hero-cta-buttons {
+    margin: 3.5rem 0;
+  }
+  .Hero-cta-buttons .Cta-btn {
+    margin: 1rem 0;
+  }
+}

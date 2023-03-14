@@ -1,0 +1,22 @@
+.Portfolio-navbar {
+  background-color: var(--dk-color2);
+  color: var(--dk-color4) !important;
+}
+
+.Portfolio-navbar a {
+  color: var(--dk-color5) !important;
+}
+
+.Portfolio-navbar a:hover {
+  color: var(--dk-color4);
+}
+
+.Portfolio-navbar a:focus,
+.Portfolio-navbar a:active {
+  color: var(--dk-color4) !important;
+  font-weight: bold;
+}
+
+.Portfolio-navbar .navbar-toggler-icon {
+  color: #760822 !important;
+}

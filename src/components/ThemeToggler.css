@@ -1,0 +1,7 @@
+.Theme-toggler {
+}
+
+.Toggler-dark svg,
+.Toggler-light svg {
+  display: inline;
+}

@@ -1,0 +1,200 @@
+{
+    "be": [
+        {
+            "skill": "PHP",
+            "keywords": [
+                "Hypertext Preprocessor"
+            ]
+        },
+        {
+            "skill": "Symfony",
+            "keywords": [
+                "PHP Web Framework"
+            ]
+        },
+        {
+            "skill": "Laravel",
+            "keywords": [
+                "PHP Web Framework"
+            ]
+        },
+        {
+            "skill": "Drupal",
+            "keywords": [
+                "Content Management System",
+                "CMS"
+            ]
+        },
+        {
+            "skill": "Node.js",
+            "keywords": [
+                "Back-end JavaScript"
+            ] 
+        },
+        {
+            "skill": "C#",
+            "keywords": [
+                ".NET Framework"
+            ] 
+        },
+        {
+            "skill": "Bash",
+            "keywords": [
+                "Shell Scripting"
+            ]
+        }
+
+    ],
+    "fe": [
+        {
+            "skill": "HTML",
+            "keywords": [
+                "HyperText Markup Language"
+            ]
+        },
+        {
+            "skill": "CSS",
+            "keywords": [
+                "Cascading Style Sheets"
+            ]
+        },
+        {
+            "skill": "JavaScript",
+            "keywords": [
+                "Vanilla",
+                "ECMAScript",
+                "ES 6"
+            ]
+        },
+        {
+            "skill": "jQuery",
+            "keywords": [
+                "JavaScript Library"
+            ]
+        },
+        {
+            "skill": "React.js",
+            "keywords": [
+                "JavaScript Library"
+            ]
+        }
+    ],
+    "tdd": [
+        {
+            "skill": "PHPUnit",
+            "keywords": [
+                "Unit Testing Framework"
+            ]
+        },
+        {
+            "skill": "Jest",
+            "keywords": [
+                "JavaScript Testing Framework"
+            ]
+        }
+    ],
+    "devops": [
+        {
+            "skill": "GitHub",
+            "keywords": [
+                "Vesion Control",
+                "Continuous Integration",
+                "Project Management"
+            ]
+        },
+        {
+            "skill": "Bitbucket",
+            "keywords": [
+                "Vesion Control",
+                "Continuous Integration"
+            ]
+        },
+        {
+            "skill": "GitLab",
+            "keywords": [
+                "Vesion Control",
+                "Continuous Integration"
+            ]
+        },
+        {
+            "skill": "AWS",
+            "keywords": [
+                "Amazon Web Services",
+                "Cloud Computing"
+            ]
+        },
+        {
+            "skill": "Azure",
+            "keywords": [
+                "Microsoft",
+                "Cloud Computing"
+            ]
+        },
+        {
+            "skill": "Azure DevOps",
+            "keywords": [
+                "Vesion Control",
+                "Continuous Integration",
+                "Project Management"
+            ]
+        },
+        {
+            "skill": "Buddy.Works",
+            "keywords": [
+                "Continuous Integration",
+                "Continous Deployment",
+                "CI/CD"
+            ]
+        }
+    ],
+    "pm": [
+        {
+            "skill": "XP",
+            "keywords": [
+                "Extreme Programming",
+                "Software Development Methodology"
+            ]
+        },
+        {
+            "skill": "SCRUM",
+            "keywords": [
+                "Project Management Framework"
+            ]
+        },
+        {
+            "skill": "KANBAN",
+            "keywords": [
+                "Lean Methodology",
+                "Process Management"
+            ]
+        },
+        {
+            "skill": "JIRA",
+            "keywords": [
+                "Project Management Software",
+                "Bug Tracking"
+            ]
+        },
+        {
+            "skill": "ClickUp",
+            "keywords": [
+                "Project Management Software",
+                "Bug Tracking"
+            ]
+        },
+        {
+            "skill": "Notion",
+            "keywords": [
+                "Knowledge Management System",
+                "Productivity Tool"
+            ]
+        },
+        {
+            "skill": "ITIL",
+            "keywords": [
+                "IT Service Management",
+                "Service Delivery Framework"
+            ]
+        }
+    ]
+}

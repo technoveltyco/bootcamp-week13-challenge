@@ -1,28 +1,55 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import NavTabs from "./components/NavTabs";
+import NavBar from "./components/NavBar";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import Blog from "./components/pages/Blog";
+import Work from "./components/pages/Work";
 import Contact from "./components/pages/Contact";
+import "./App.css";
+
+const basename = "myportfolio-react";
 
 function App() {
   return (
-    <Router basename="myportfolio-react">
-      <div>
-        <NavTabs />
-        {/* Wrap Route elements in a Routes component */}
+    <div className="Portfolio">
+      <Router basename={basename}>
+        <NavBar />
         <Routes>
-          {/* Define routes using the Route component to render different page components at different paths */}
-          {/* Define a default route that will render the Home component */}
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="blog" element={<Blog />} />
-          {/* Define a route that will have descendant routes */}
-          <Route path="contact/*" element={<Contact />} />
+          <Route
+            path="/"
+            element={
+              <div className="Page">
+                <Home basename={basename} />
+              </div>
+            }
+          />
+          <Route
+            path="about"
+            element={
+              <div className="Page">
+                <About basename={basename} />
+              </div>
+            }
+          />
+          <Route
+            path="work"
+            element={
+              <div className="Page">
+                <Work basename={basename} />
+              </div>
+            }
+          />
+          <Route
+            path="contact/*"
+            element={
+              <div className="Page">
+                <Contact basename={basename} />
+              </div>
+            }
+          />
         </Routes>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
