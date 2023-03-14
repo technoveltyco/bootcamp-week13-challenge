@@ -1,0 +1,28 @@
+.Cta-btn.btn-primary,
+.Cta-btn.btn-primary:active,
+.Cta-btn.btn-primary:visited {
+  background-color: var(--dk-color2) !important;
+  border-color: var(--dk-color2) !important;
+  color: var(--dk-color4) !important;
+}
+
+.Cta-btn.btn-primary:hover,
+.Cta-btn.btn-primary:focus {
+  background-color: var(--dk-color3) !important;
+  border-color: var(--dk-color3) !important;
+  color: var(--dk-color5) !important;
+}
+
+.Cta-btn.btn-outline-primary,
+.Cta-btn.btn-outline-primary:active,
+.Cta-btn.btn-outline-primary:visited {
+  border-color: var(--dk-color2) !important;
+  color: var(--dk-color2) !important;
+}
+
+.Cta-btn.btn-outline-primary:hover,
+.Cta-btn.btn-outline-primary:focus {
+  background-color: var(--dk-color2) !important;
+  border-color: var(--dk-color3) !important;
+  color: var(--dk-color4) !important;
+}

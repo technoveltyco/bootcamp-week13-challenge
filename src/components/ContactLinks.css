@@ -1,0 +1,35 @@
+.Hero-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Contact-head {
+  font-size: 1.33em;
+}
+
+.Contact-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Contact-list-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.Contact-list-item a,
+.Contact-list-item a:active,
+.Contact-list-item a:visited {
+  color: var(--dk-color2);
+  text-decoration: none;
+}
+
+.Contact-list-item a:hover,
+.Contact-list-item a:focus {
+  color: var(--dk-color3);
+  text-decoration: none;
+}
+
+.Contact-list-item a:focus {
+  font-weight: bold;
+}

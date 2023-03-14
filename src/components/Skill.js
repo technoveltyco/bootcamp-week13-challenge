@@ -32,19 +32,19 @@ function Skill({ skill, keywords, key }) {
           </defs>
 
           {/* <circle cx="150" cy="150" r="150" fill="#000"/> */}
-          <g class="circle-text">
+          <g className="circle-text">
             <use xlinkHref="#circlePath" fill="none" />
-            <text fill="#000" font-family="Verdana" font-size="29">
+            <text fill="#000" fontFamily="Verdana" fontSize="29">
               <textPath xlinkHref="#circlePath">{circleText}</textPath>
             </text>
           </g>
           <g>
             <text
-              class="badge-text"
+              className="badge-text"
               x={xText}
               y={yText}
-              font-family="Verdana"
-              font-size="35"
+              fontFamily="Verdana"
+              fontSize="35"
             >
               {skill}
             </text>
