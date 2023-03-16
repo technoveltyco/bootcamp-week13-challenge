@@ -1,200 +1,269 @@
 {
-    "be": [
+    "Back End": [
         {
+            "id": "1",
             "skill": "PHP",
             "keywords": [
-                "Hypertext Preprocessor"
-            ]
+                "Hypertext Preprocessor",
+                "Scripting"
+            ],
+            "link": "https://www.php.net/"
         },
         {
+            "id": "2",
             "skill": "Symfony",
             "keywords": [
-                "PHP Web Framework"
-            ]
+                "PHP Framework",
+                "Web Applications"
+            ],
+            "link": "https://symfony.com/"
         },
         {
+            "id": "3",
             "skill": "Laravel",
             "keywords": [
-                "PHP Web Framework"
-            ]
+                "PHP Web Framework",
+                "Web Applications"
+            ],
+            "link": "https://laravel.com/"
         },
         {
+            "id": "4",
             "skill": "Drupal",
             "keywords": [
                 "Content Management System",
                 "CMS"
-            ]
+            ],
+            "link": "https://www.drupal.org/"
         },
         {
+            "id": "5",
             "skill": "Node.js",
             "keywords": [
-                "Back-end JavaScript"
-            ] 
+                "Back-end JavaScript",
+                "Scripting"
+            ],
+            "link": "https://nodejs.dev/en/learn/"
         },
         {
+            "id": "6",
             "skill": "C#",
             "keywords": [
-                ".NET Framework"
-            ] 
+                ".NET Framework",
+                "Web Applications"
+            ],
+            "link": "https://dotnet.microsoft.com/en-us/languages/csharp"
         },
         {
+            "id": "7",
             "skill": "Bash",
             "keywords": [
-                "Shell Scripting"
-            ]
+                "Shell Scripting",
+                "Task Automation"
+            ],
+            "link": "https://www.gnu.org/software/bash/"
         }
 
     ],
-    "fe": [
+    "Front End": [
         {
+            "id": "8",
             "skill": "HTML",
             "keywords": [
-                "HyperText Markup Language"
-            ]
+                "HyperText Markup Language",
+                "Semantic"
+            ],
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         },
         {
+            "id": "9",
             "skill": "CSS",
             "keywords": [
-                "Cascading Style Sheets"
-            ]
+                "Cascading Style Sheets",
+                "Flexbox",
+                "Grid"
+            ],
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         },
         {
+            "id": "10",
             "skill": "JavaScript",
             "keywords": [
                 "Vanilla",
                 "ECMAScript",
-                "ES 6"
-            ]
+                "ES 6",
+                "Web API"
+            ],
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         },
         {
+            "id": "11",
             "skill": "jQuery",
             "keywords": [
-                "JavaScript Library"
-            ]
+                "JavaScript Library",
+                "DOM Manipulation"
+            ],
+            "link": "https://jquery.com/"
         },
         {
+            "id": "12",
             "skill": "React.js",
             "keywords": [
-                "JavaScript Library"
-            ]
+                "JavaScript Library",
+                "Virtual DOM"
+            ],
+            "link": "https://reactjs.org/"
         }
     ],
-    "tdd": [
+    "Test Driven Development": [
         {
+            "id": "13",
             "skill": "PHPUnit",
             "keywords": [
-                "Unit Testing Framework"
-            ]
+                "Unit Testing Framework",
+                "TDD"
+            ],
+            "link": "https://phpunit.de/"
         },
         {
+            "id": "14",
             "skill": "Jest",
             "keywords": [
-                "JavaScript Testing Framework"
-            ]
+                "JavaScript Testing Framework",
+                "TDD"
+            ],
+            "link": "https://jestjs.io/"
+        },
+        {
+            "id": "15",
+            "skill": "xUnit",
+            "keywords": [
+                "Unit Testing Framework",
+                ".NET",
+                "TDD"
+            ],
+            "link": "https://xunit.net/"
         }
     ],
-    "devops": [
+    "DevOps": [
         {
+            "id": "15",
             "skill": "GitHub",
             "keywords": [
                 "Vesion Control",
                 "Continuous Integration",
                 "Project Management"
-            ]
+            ],
+            "link": "https://github.com/"
         },
         {
+            "id": "16",
             "skill": "Bitbucket",
             "keywords": [
                 "Vesion Control",
                 "Continuous Integration"
-            ]
+            ],
+            "link": "https://bitbucket.org/"
         },
         {
+            "id": "17",
             "skill": "GitLab",
             "keywords": [
                 "Vesion Control",
                 "Continuous Integration"
-            ]
+            ],
+            "link": "https://about.gitlab.com/"
         },
         {
+            "id": "18",
             "skill": "AWS",
             "keywords": [
                 "Amazon Web Services",
                 "Cloud Computing"
-            ]
+            ],
+            "link": "https://aws.amazon.com/"
         },
         {
+            "id": "19",
             "skill": "Azure",
             "keywords": [
                 "Microsoft",
                 "Cloud Computing"
-            ]
+            ],
+            "link": "https://azure.microsoft.com/en-gb/"
         },
         {
-            "skill": "Azure DevOps",
-            "keywords": [
-                "Vesion Control",
-                "Continuous Integration",
-                "Project Management"
-            ]
-        },
-        {
-            "skill": "Buddy.Works",
+            "id": "22",
+            "skill": "Buddy",
             "keywords": [
                 "Continuous Integration",
-                "Continous Deployment",
-                "CI/CD"
-            ]
+                "Continous Deployment"
+            ],
+            "link": "https://buddy.works/"
         }
     ],
-    "pm": [
+    "Agile Project Management": [
         {
+            "id": "23",
             "skill": "XP",
             "keywords": [
                 "Extreme Programming",
                 "Software Development Methodology"
-            ]
+            ],
+            "link": "https://en.wikipedia.org/wiki/Extreme_programming"
         },
         {
+            "id": "24",
             "skill": "SCRUM",
             "keywords": [
                 "Project Management Framework"
-            ]
+            ],
+            "link": "https://en.wikipedia.org/wiki/Scrum_(software_development)"
         },
         {
+            "id": "25",
             "skill": "KANBAN",
             "keywords": [
                 "Lean Methodology",
                 "Process Management"
-            ]
+            ],
+            "link": "https://en.wikipedia.org/wiki/Kanban"
         },
         {
+            "id": "26",
             "skill": "JIRA",
             "keywords": [
                 "Project Management Software",
                 "Bug Tracking"
-            ]
+            ],
+            "link": "https://www.atlassian.com/software/jira"
         },
         {
+            "id": "27",
             "skill": "ClickUp",
             "keywords": [
                 "Project Management Software",
                 "Bug Tracking"
-            ]
+            ],
+            "link": ""
         },
         {
+            "id": "28",
             "skill": "Notion",
             "keywords": [
                 "Knowledge Management System",
                 "Productivity Tool"
-            ]
+            ],
+            "link": "https://www.notion.so/"
         },
         {
+            "id": "29",
             "skill": "ITIL",
             "keywords": [
                 "IT Service Management",
                 "Service Delivery Framework"
-            ]
+            ],
+            "link": "https://www.axelos.com/certifications/itil-service-management/"
         }
     ]
 }

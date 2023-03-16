@@ -17,6 +17,6 @@
   font-weight: bold;
 }
 
-.Portfolio-navbar .navbar-toggler-icon {
-  color: #760822 !important;
+.Portfolio-nav .nav-item {
+  margin: 0 1rem;
 }
