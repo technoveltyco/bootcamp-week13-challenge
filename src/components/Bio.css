@@ -2,3 +2,13 @@
   float: right;
   margin: 1.5rem;
 }
+
+.Bio-head {
+  padding-top: 0 !important;
+}
+
+.Bio-content {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 1.33rem;
+  line-height: 2rem;
+}

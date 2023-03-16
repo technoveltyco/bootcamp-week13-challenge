@@ -1,7 +1,6 @@
-import Col from "react-bootstrap/Col";
 import "./Skill.css";
 
-function Skill({ skill, keywords, key }) {
+function Skill({ id, skill, keywords, link }) {
   const xminBox = 0,
     yminBox = 0,
     wBox = 300,
@@ -9,18 +8,25 @@ function Skill({ skill, keywords, key }) {
     wSvg = 100,
     hSvg = 100;
   const viewBox = `${xminBox} ${yminBox} ${wBox} ${hBox}`;
-  const xText = Math.floor((wBox - skill.length) / 2),
-    yText = Math.floor(hBox / 2);
 
-  const skillTitleId = `skillTitle${key}`;
-  const skillDescId = `skillDesc${key}`;
+  // Badge accessibility attributes in the SVG.
+  const skillTitleId = `skillTitle${id}`;
+  const skillDescId = `skillDesc${id}`;
   const titleText = `I have experience in ${skill}`;
   const descText = `${skill} is ${keywords.join(", ")}`;
+
+  // Build circle text
   const circleText = `${keywords.join(" · ")} · `;
 
   return (
-    <Col>
-      <div className="skill-badge">
+    <div key={id} className="skill-badge">
+      <a
+        href={link}
+        aria-labelledby={skillTitleId}
+        aria-describedby={skillDescId}
+        target="_blank"
+        rel="noreferrer"
+      >
         <svg viewBox={viewBox} width={wSvg} height={hSvg}>
           <title id={skillTitleId}>{titleText}</title>
           <desc id={skillDescId}>{descText}</desc>
@@ -32,26 +38,26 @@ function Skill({ skill, keywords, key }) {
           </defs>
 
           {/* <circle cx="150" cy="150" r="150" fill="#000"/> */}
-          <g className="circle-text">
+          <g>
             <use xlinkHref="#circlePath" fill="none" />
-            <text fill="#000" fontFamily="Verdana" fontSize="29">
+            <text className="circle-text">
               <textPath xlinkHref="#circlePath">{circleText}</textPath>
             </text>
           </g>
           <g>
             <text
               className="badge-text"
-              x={xText}
-              y={yText}
-              fontFamily="Verdana"
-              fontSize="35"
+              x="50%"
+              y="50%"
+              dominantBaseline="middle"
+              textAnchor="middle"
             >
               {skill}
             </text>
           </g>
         </svg>
-      </div>
-    </Col>
+      </a>
+    </div>
   );
 }
 
