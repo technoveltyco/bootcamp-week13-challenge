@@ -20,13 +20,13 @@
 .Contact-list-item a,
 .Contact-list-item a:active,
 .Contact-list-item a:visited {
-  color: var(--dk-color2);
+  color: var(--dk-color8);
   text-decoration: none;
 }
 
 .Contact-list-item a:hover,
 .Contact-list-item a:focus {
-  color: var(--dk-color3);
+  color: var(--dk-color9);
   text-decoration: none;
 }
 

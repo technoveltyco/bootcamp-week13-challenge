@@ -1,5 +1,6 @@
 # Modern Development with React: React Portfolio
-Boot camp week 13 challenge repository
+
+My Portfolio developed using React.js, React Router and Bootstrap 5.
 
 ## Table of contents
 
@@ -19,8 +20,6 @@ Boot camp week 13 challenge repository
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -29,20 +28,12 @@ Describe the challenge here
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![My portfolio homepage](./docs/assets/img/Screenshot%202023-03-17%20at%2001-21-25%20React%20App.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/technoveltyco/myportfolio-react](https://github.com/technoveltyco/myportfolio-react)
+- Live Site URL: [https://technoveltyco.github.io/myportfolio-react/](https://technoveltyco.github.io/myportfolio-react/)
 
 ## My process
 

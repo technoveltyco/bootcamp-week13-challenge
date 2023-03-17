@@ -1,11 +1,11 @@
 .skill-badge {
   display: inline-block;
-  background: rgb(131, 58, 180);
+  background: var(--dk-color2);
   background: linear-gradient(
     310deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
+    var(--dk-color2) 0%,
+    var(--dk-color7) 50%,
+    var(--dk-color8) 100%
   );
   border-radius: 50%;
   margin: 1rem 0;

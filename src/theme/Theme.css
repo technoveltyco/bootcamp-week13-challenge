@@ -1,11 +1,13 @@
 :root {
   --dk-color1: #22272e;
   --dk-color2: blueviolet;
-  --dk-color2-1: #b278e8;
   --dk-color3: #711ebf;
   --dk-color4: whitesmoke;
   --dk-color5: #edeae0; /* Alabaster */
   --dk-color6: #5c636a;
+  --dk-color7: #fd1d1d;
+  --dk-color8: #fcb045;
+  --dk-color9: #e28a2b;
 
   --navbar-height: 9vh;
 }

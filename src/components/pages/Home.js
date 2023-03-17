@@ -30,8 +30,12 @@ function Home() {
           </Col>
           <Col className="Intro-right">
             <HeroAside>
-              <Avatar />
-              <ContactLinks />
+              <div className="Hero-picture">
+                <Avatar />
+              </div>
+              <div className="Hero-contact">
+                <ContactLinks />
+              </div>
             </HeroAside>
           </Col>
         </Row>
