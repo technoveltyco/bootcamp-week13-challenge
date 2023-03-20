@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/myportfolio-react/static/css/main.7c3736dd.css",
-    "main.js": "/myportfolio-react/static/js/main.bb57701a.js",
+    "main.css": "/myportfolio-react/static/css/main.349fc2d0.css",
+    "main.js": "/myportfolio-react/static/js/main.ce575890.js",
     "static/js/787.d9c2e09f.chunk.js": "/myportfolio-react/static/js/787.d9c2e09f.chunk.js",
     "static/media/My-Memoji-Component.png": "/myportfolio-react/static/media/My-Memoji-Component.44175bfc6e51403930ab.png",
     "index.html": "/myportfolio-react/index.html",
-    "main.7c3736dd.css.map": "/myportfolio-react/static/css/main.7c3736dd.css.map",
-    "main.bb57701a.js.map": "/myportfolio-react/static/js/main.bb57701a.js.map",
+    "main.349fc2d0.css.map": "/myportfolio-react/static/css/main.349fc2d0.css.map",
+    "main.ce575890.js.map": "/myportfolio-react/static/js/main.ce575890.js.map",
     "787.d9c2e09f.chunk.js.map": "/myportfolio-react/static/js/787.d9c2e09f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c3736dd.css",
-    "static/js/main.bb57701a.js"
+    "static/css/main.349fc2d0.css",
+    "static/js/main.ce575890.js"
   ]
 }
