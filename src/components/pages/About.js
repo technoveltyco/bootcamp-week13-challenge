@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Bio from "../Bio";
 import Skills from "../sections/Skills";
-import skillsContent from "../content/skills";
+import skillsContent from "../../content/skills";
 import "./About.css";
 
 function About() {
