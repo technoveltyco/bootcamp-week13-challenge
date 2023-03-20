@@ -24,7 +24,7 @@ function Hero({ children }) {
           </span>
         </p>
       </div>
-      <div className="Hero-cta-buttons">{children}</div>
+      <div className="Hero-actions-cta">{children}</div>
     </>
   );
 }

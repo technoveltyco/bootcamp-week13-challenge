@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./ContactLinks.css";
 
-function ContactLinks({ reachOut = "contact/reach-out" }) {
+function ContactLinks({ contact = "contact/#react-out" }) {
   return (
     <>
-      <h3 className="Contact-head">Reach Out to Me</h3>
+      <h3 className="Contact-head Section-header">Reach Out to Me</h3>
       <div className="Contact-list">
         <p className="Contact-list-item">
-          <Link to={reachOut} role="link" tabIndex="7" className="Contact-link">
+          <Link to={contact} role="link" className="Contact-link Link">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -31,8 +31,7 @@ function ContactLinks({ reachOut = "contact/reach-out" }) {
             href="https://drive.google.com/file/d/1FY05C11qY5VGFOe4wvJ80P6Qgo8sArO6/view?usp=share_link"
             target="_blank"
             rel="noreferrer"
-            className="Contact-link"
-            tabIndex="8"
+            className="Contact-link Link"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -55,8 +54,7 @@ function ContactLinks({ reachOut = "contact/reach-out" }) {
             href="https://www.linkedin.com/in/danieljoserodriguezborges/"
             target="_blank"
             rel="noreferrer"
-            className="Contact-link"
-            tabIndex="9"
+            className="Contact-link Link"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -76,8 +74,7 @@ function ContactLinks({ reachOut = "contact/reach-out" }) {
             href="https://github.com/technoveltyco"
             target="_blank"
             rel="noreferrer"
-            className="Contact-link"
-            tabIndex="10"
+            className="Contact-link Link"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

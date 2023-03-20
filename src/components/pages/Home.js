@@ -34,7 +34,7 @@ function Home() {
                 <Avatar />
               </div>
               <div className="Hero-contact">
-                <ContactLinks />
+                <ContactLinks contact="contact/#reach-out" />
               </div>
             </HeroAside>
           </Col>

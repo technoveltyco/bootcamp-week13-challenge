@@ -6,7 +6,7 @@ import projects from "../../content/projects";
 function Work() {
   return (
     <div className="Work">
-      <h1 className="Work-head">Portfolio </h1>
+      <h1 className="Work-head Section-header">Portfolio </h1>
       <Container>
         <Row xs={1} md={2} className="g-4">
           {projects.bootcamp.reverse().map((project, id) => {
