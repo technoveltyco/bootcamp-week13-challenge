@@ -9,6 +9,7 @@
 
 .Portfolio-navbar a:hover {
   color: var(--dk-color4);
+  font-weight: bold;
 }
 
 .Portfolio-navbar a:focus,

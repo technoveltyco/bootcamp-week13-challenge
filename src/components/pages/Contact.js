@@ -1,33 +1,33 @@
 import React from "react";
-import { Link, Route, Routes } from "react-router-dom";
+import { Col, Row } from "react-bootstrap";
+import { Route, Routes } from "react-router-dom";
 import ContactLinks from "../ContactLinks";
 import ReachOut from "../sections/ReachOut";
 import "./Contact.css";
 
 function Contact() {
   return (
-    <div>
-      <h1>Contact Me</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-      <ContactLinks reachOut="reach-out" />
-      <Link to="contact" role="link" className="Contact-link">
-        Hide this form
-      </Link>
-      <Routes>
-        <Route path="reach-out" element={<ReachOut />} />
-      </Routes>
+    <div className="Contact">
+      <Row>
+        <Col>
+          <ReachOut />
+        </Col>
+        <Col>
+          <div className="Contact-location py-4"></div>
+          <iframe
+            title="My location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.47340138946!2d-0.24168153443085844!3d51.52855824125855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon!5e0!3m2!1sen!2suk!4v1679309568520!5m2!1sen!2suk"
+            width="600"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <ContactLinks reachOut="contact/#reach-out" />
+        </Col>
+      </Row>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 :root {
   --dk-color1: #22272e;
-  --dk-color2: blueviolet;
+  --dk-color2: #8a2be2;
   --dk-color3: #711ebf;
   --dk-color4: whitesmoke;
   --dk-color5: #edeae0; /* Alabaster */
@@ -8,6 +8,33 @@
   --dk-color7: #fd1d1d;
   --dk-color8: #fcb045;
   --dk-color9: #e28a2b;
+  --dk-color10: #3f4143;
 
   --navbar-height: 9vh;
+}
+
+.Section-header {
+}
+
+.Link,
+.Link:active,
+.Link:visited {
+  color: var(--dk-color8);
+  text-decoration: none;
+}
+
+.Link:hover,
+.Link:focus {
+  color: var(--dk-color9);
+  text-decoration: none;
+}
+
+.Link:focus {
+  font-weight: bold;
+}
+
+.Cta-button {
+}
+
+.Cta-button-outline {
 }

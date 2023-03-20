@@ -2,109 +2,122 @@
     "previous": [
         {
             "id": "1",
-            "title": "Hotel Search",
+            "title": "🏨 ✈️ Hotel Search",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo deserunt, unde dicta asperiores repellendus, nihil accusantium fugiat possimus laboriosam beatae cupiditate placeat eveniet libero error sint repellat deleniti fuga corporis?",
             "highlight": false,
             "url": "",
-            "repo": ""
+            "repo": "",
+            "image": ""
         },
         {
             "id": "2",
-            "title": "User's Management System",
+            "title": "⚙️ User's Management System",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo deserunt, unde dicta asperiores repellendus, nihil accusantium fugiat possimus laboriosam beatae cupiditate placeat eveniet libero error sint repellat deleniti fuga corporis?",
             "highlight": false,
             "url": "",
-            "repo": ""
+            "repo": "",
+            "image": ""
         },
         {
             "id": "3",
-            "title": "Electric Vehicle (EV)",
+            "title": "🚗 Electric Vehicle (EV)",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo deserunt, unde dicta asperiores repellendus, nihil accusantium fugiat possimus laboriosam beatae cupiditate placeat eveniet libero error sint repellat deleniti fuga corporis?",
             "highlight": false,
             "url": "",
-            "repo": ""
+            "repo": "",
+            "image": ""
         },
         {
             "id": "4",
-            "title": "Restaurant API",
+            "title": "🏪 Restaurant API",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo deserunt, unde dicta asperiores repellendus, nihil accusantium fugiat possimus laboriosam beatae cupiditate placeat eveniet libero error sint repellat deleniti fuga corporis?",
             "highlight": false,
             "url": "",
-            "repo": ""
+            "repo": "",
+            "image": ""
+        },
+        {
+            "id": "5",
+            "title": "🔑 Password Generator",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo deserunt, unde dicta asperiores repellendus, nihil accusantium fugiat possimus laboriosam beatae cupiditate placeat eveniet libero error sint repellat deleniti fuga corporis?",
+            "highlight": false,
+            "repo": "https://github.com/technoveltyco/bootcamp-week5-challenge",
+            "url": "https://technoveltyco.github.io/bootcamp-week5-challenge/",
+            "image": ""
+        },
+        {
+            "id": "6",
+            "title": "✔️ ❌ Code Quiz",
+            "description": "A multiple-choice coding quiz that can keep track of high scores and quiz-takers' initials. This app run in the browser, and it is UI is developed with HTML and CSS and using Vanilla JavaScript",
+            "highlight": false,
+            "url": "https://technoveltyco.github.io/bootcamp-week6-challenge/",
+            "repo": "https://github.com/technoveltyco/bootcamp-week6-challenge",
+            "image": ""
+        },
+        {
+            "id": "7",
+            "title": "📅 Daily Planner App",
+            "description": "A simple calendar application that allows a user to save events for each hour of the day. This app implements DOM manipulation, and integration of Web APIs, like session and local storage. This app run in the browser and feature dynamically updated HTML and CSS using Vanilla JavaScript.",
+            "highlight": false,
+            "url": "https://technoveltyco.github.io/bootcamp-week7-challenge/",
+            "repo": "https://github.com/technoveltyco/bootcamp-week7-challenge",
+            "image": ""
         }
     ],
     "bootcamp": [
         {
-            "id": "5",
-            "title": "Password Generator",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo deserunt, unde dicta asperiores repellendus, nihil accusantium fugiat possimus laboriosam beatae cupiditate placeat eveniet libero error sint repellat deleniti fuga corporis?",
-            "highlight": false,
-            "repo": "https://github.com/technoveltyco/bootcamp-week5-challenge",
-            "url": "https://technoveltyco.github.io/bootcamp-week5-challenge/"
-        },
-        {
-            "id": "6",
-            "title": "Code Quiz",
-            "description": "A multiple-choice coding quiz that can keep track of high scores and quiz-takers' initials. This app run in the browser, and it is UI is developed with HTML and CSS and using Vanilla JavaScript",
-            "highlight": false,
-            "url": "https://technoveltyco.github.io/bootcamp-week6-challenge/",
-            "repo": "https://github.com/technoveltyco/bootcamp-week6-challenge"
-        },
-        {
-            "id": "7",
-            "title": "Daily Planner App",
-            "description": "A simple calendar application that allows a user to save events for each hour of the day. This app implements DOM manipulation, and integration of Web APIs, like session and local storage. This app run in the browser and feature dynamically updated HTML and CSS using Vanilla JavaScript.",
-            "highlight": false,
-            "url": "https://technoveltyco.github.io/bootcamp-week7-challenge/",
-            "repo": "https://github.com/technoveltyco/bootcamp-week7-challenge"
-        },
-        {
             "id": "8",
-            "title": "Weather Dashboard",
+            "title": "🌡️ ☁️ Weather Dashboard",
             "description": "A web application to search for weather forecasts in geographic locations around the world. This app implements DOM manipulation, and integration of Web APIs, like session and local storage. This app run in the browser and feature dynamically updated HTML and CSS using Vanilla JavaScript.",
             "highlight": false,
             "repo": "https://github.com/technoveltyco/bootcamp-week8-challenge",
-            "url": "https://technoveltyco.github.io/bootcamp-week8-challenge/"
+            "url": "https://technoveltyco.github.io/bootcamp-week8-challenge/",
+            "image": "img/weather-dashboard.png"
         },
         {
             "id": "9",
-            "title": "Fakee-Shop",
+            "title": "🛍️ Fakee-Shop",
             "description": "Fakee-Shop is an implementation of an online retail store, starting from a given UX/UI concept, and creating an MVP in a sprint of 2 weeks, using rapid prototyping frameworks.",
             "highlight": false,
             "url": "https://technoveltyco.github.io/bootcamp-project1/",
-            "repo": "https://github.com/technoveltyco/bootcamp-project1"
+            "repo": "https://github.com/technoveltyco/bootcamp-project1",
+            "image": "img/fakee-shop.png"
         },
         {
             "id": "10",
-            "title": "Professional README Generator",
+            "title": "📝 Professional README Generator",
             "description": "A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.",
             "highlight": false,
             "url": "https://technoveltyco.github.io/bootcamp-week11-challenge/",
-            "repo": "https://github.com/technoveltyco/bootcamp-week11-challenge"
+            "repo": "https://github.com/technoveltyco/bootcamp-week11-challenge",
+            "image": "img/readme-generator.png"
         },
         {
             "id": "11",
-            "title": "Team Profile Generator",
+            "title": "📇 Team Profile Generator",
             "description": "A Node.js CLI application that will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person, following Agile methodology, OO paradigm and TDD/BDD development in JavaScript.",
             "highlight": false,
             "url": "https://technoveltyco.github.io/bootcamp-week12-challenge/",
-            "repo": "https://github.com/technoveltyco/bootcamp-week12-challenge"
+            "repo": "https://github.com/technoveltyco/bootcamp-week12-challenge",
+            "image": "img/team-profile-generator.png"
         },
         {
             "id": "12",
-            "title": "My Portfolio in React",
+            "title": "📖 My Portfolio in React",
             "description": "My personal portfolio created using React.js",
             "highlight": false,
             "url": "https://technoveltyco.github.io/myportfolio-react/",
-            "repo": "https://github.com/technoveltyco/myportfolio-react"
+            "repo": "https://github.com/technoveltyco/myportfolio-react",
+            "image": "img/myportfolio-react.png"
         },
         {
             "id": "13",
-            "title": "Back2Life Music Player",
+            "title": "🎼 Back2Life Music Player",
             "description": "A music player app, created with React and Express.js, where users can search for albums, artists and songs using Shazam database and create playlists to listen to them.",
             "highlight": false,
             "url": "https://technoveltyco.github.io/back2life-music-playlist-app/",
-            "repo": "https://github.com/technoveltyco/back2life-music-playlist-app"
+            "repo": "https://github.com/technoveltyco/back2life-music-playlist-app",
+            "image": "img/back2life.png"
         }
     ]
 }

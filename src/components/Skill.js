@@ -19,7 +19,7 @@ function Skill({ id, skill, keywords, link }) {
   const circleText = `${keywords.join(" · ")} · `;
 
   return (
-    <div key={id} className="skill-badge">
+    <div key={id} className="Skill-badge">
       <a
         href={link}
         aria-labelledby={skillTitleId}

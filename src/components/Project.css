@@ -1,0 +1,18 @@
+.Project.card {
+  background: #3f4143 !important;
+  height: 33rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Project .card-header {
+  margin: 0;
+  padding: 0;
+}
+
+.Project-image {
+  height: 300px;
+}
+
+.Project .card-footer {
+  text-align: center;
+}

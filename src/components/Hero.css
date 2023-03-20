@@ -20,7 +20,7 @@
   margin: 1.5rem 0;
 }
 
-.Hero-cta-buttons {
+.Hero-actions-cta {
   display: flex;
   justify-content: space-evenly;
   margin: 3.5rem;
@@ -62,20 +62,20 @@
 }
 
 @media (max-width: 576px) {
-  .Hero-cta-buttons {
+  .Hero-actions-cta {
     flex-direction: column;
   }
 
-  .Hero-cta-buttons .Cta-btn {
+  .Hero-actions-cta .Cta-btn {
     margin: 1rem 0;
   }
 }
 
 @media (max-width: 768px) {
-  .Hero-cta-buttons {
+  .Hero-actions-cta {
     margin: 3.5rem 0;
   }
-  .Hero-cta-buttons .Cta-btn {
+  .Hero-actions-cta .Cta-btn {
     margin: 1rem 0;
   }
 }

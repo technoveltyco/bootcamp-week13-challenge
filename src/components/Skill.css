@@ -1,4 +1,4 @@
-.skill-badge {
+.Skill-badge {
   display: inline-block;
   background: var(--dk-color2);
   background: linear-gradient(
@@ -15,19 +15,19 @@
   border: 3px solid var(--dk-color1);
 }
 
-.skill-badge .badge-text,
-.skill-badge .circle-text {
+.Skill-badge .badge-text,
+.Skill-badge .circle-text {
   font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
 }
 
-.skill-badge .badge-text {
+.Skill-badge .badge-text {
   fill: var(--dk-color4);
   font-size: 32pt;
   text-shadow: 0px 3px 4px rgba(34, 39, 46, 0.95);
 }
 
-.skill-badge .circle-text {
+.Skill-badge .circle-text {
   position: relative;
   transform-origin: 148px 148px;
   animation: spin 60s linear infinite;

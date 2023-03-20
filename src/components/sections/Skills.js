@@ -5,7 +5,7 @@ import "./Skills.css";
 
 function Skills({ index, title, skills }) {
   return (
-    <div key={index} className="Skills">
+    <section key={index} className="Skills">
       <h3 className="Skills-head">{title}</h3>
       <div className="Skills-content Section-content">
         <Row>
@@ -18,7 +18,7 @@ function Skills({ index, title, skills }) {
           })}
         </Row>
       </div>
-    </div>
+    </section>
   );
 }
 
