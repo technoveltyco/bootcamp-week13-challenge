@@ -68,7 +68,7 @@
         {
             "id": "8",
             "title": "🌡️ ☁️ Weather Dashboard",
-            "description": "A web application to search for weather forecasts in geographic locations around the world. This app implements DOM manipulation, and integration of Web APIs, like session and local storage. This app run in the browser and feature dynamically updated HTML and CSS using Vanilla JavaScript.",
+            "description": "A web application to search for weather forecasts in geographic locations around the world. This app implements DOM manipulation, and integration of Web APIs, like session and local storage.",
             "highlight": false,
             "repo": "https://github.com/technoveltyco/bootcamp-week8-challenge",
             "url": "https://technoveltyco.github.io/bootcamp-week8-challenge/",
@@ -117,7 +117,7 @@
             "highlight": false,
             "url": "https://technoveltyco.github.io/back2life-music-playlist-app/",
             "repo": "https://github.com/technoveltyco/back2life-music-playlist-app",
-            "image": "img/back2life.png"
+            "image": "img/back2life.jpg"
         }
     ]
 }

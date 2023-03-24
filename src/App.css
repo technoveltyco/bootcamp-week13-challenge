@@ -6,3 +6,9 @@
   color: var(--dk-color4);
   padding: 3.5rem;
 }
+
+@media (max-width: 768px) {
+  .Page {
+    padding: 1rem;
+  }
+}
