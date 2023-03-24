@@ -115,7 +115,7 @@
             "title": "🎼 Back2Life Music Player",
             "description": "A music player app, created with React and Express.js, where users can search for albums, artists and songs using Shazam database and create playlists to listen to them.",
             "highlight": false,
-            "url": "https://technoveltyco.github.io/back2life-music-playlist-app/",
+            "url": "https://back2life.netlify.app/",
             "repo": "https://github.com/technoveltyco/back2life-music-playlist-app",
             "image": "img/back2life.jpg"
         }
