@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { Route, Routes } from "react-router-dom";
 import ContactLinks from "../ContactLinks";
 import ReachOut from "../sections/ReachOut";
 import "./Contact.css";

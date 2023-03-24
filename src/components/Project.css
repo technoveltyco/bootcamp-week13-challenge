@@ -11,8 +11,21 @@
 
 .Project-image {
   height: 300px;
+  object-fit: scale-down;
 }
 
 .Project .card-footer {
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .Project.card {
+    height: 40rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .Project.card {
+    height: auto;
+  }
 }
