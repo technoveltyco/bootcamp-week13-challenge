@@ -55,6 +55,7 @@ On the mindmap above, I separate the content in purple, for those sections that 
 ### Continued development
 
 - [ ] UX/UI Design Improvements
+  - [ ] Theme switcher (Dark/Light mode)
 - [ ] Accessibility checks
 - [ ] Automated test
 
